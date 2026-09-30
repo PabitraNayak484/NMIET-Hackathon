@@ -25,7 +25,11 @@
     "workbox-window": "^7.4.1"
   },
   "dependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "dexie": "^4.4.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "uuid": "^14.0.2",
     "wouter": "^3.11.0",
     "zod": "^4.6.5",
