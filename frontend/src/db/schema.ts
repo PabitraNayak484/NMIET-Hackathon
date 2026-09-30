@@ -49,7 +49,7 @@ export class SathiDB extends Dexie {
   // New stores (v2)
   profiles!:       Table<ProfileRecord,       string>;  // MR-01
   quiz_seen!:      Table<QuizSeenRecord,      string>;  // MR-21
-  resume_state!:   Table<ResumeState,         string>;  // MR-14
+  resume_state!:   Table<ResumeState,         [string, string]>;  // MR-14
 
   constructor() {
     super('SathiDB');

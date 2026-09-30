@@ -3,8 +3,8 @@
 // Pure functions, no DB, no mocks.
 // ============================================================
 import { describe, it, expect } from 'vitest';
-import { selectNextAction, applyTimeModifier, applySelfDifficultyModifier } from '@/agent/planner';
-import type { PlannerInput, LearnerState } from '@/types';
+import { selectNextAction, applyTimeModifier, applySelfDifficultyModifier, type PlannerInput } from '@/agent/planner';
+import type { LearnerState } from '@/types';
 
 // ---- Fixtures -----------------------------------------------
 

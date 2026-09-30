@@ -72,6 +72,18 @@ function NetworkMonitor() {
     }
     initStorage();
 
+    // DB integrity and seed loading (MR-44)
+    async function initDB() {
+      try {
+        const { checkAndRepairDB, seedIfEmpty } = await import('./db/integrity');
+        await checkAndRepairDB();
+        await seedIfEmpty();
+      } catch (e) {
+        console.error('[SATHI] DB init error:', e);
+      }
+    }
+    initDB();
+
     // Device ID
     if (!localStorage.getItem('sathi_device_id')) {
       import('uuid').then(({ v4: uuidv4 }) => {

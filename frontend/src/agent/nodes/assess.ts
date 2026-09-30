@@ -19,7 +19,8 @@ export async function runAssess(ctx: AgentContext): Promise<AgentContext> {
     return { ...ctx, trace: [...ctx.trace, step] };
   }
 
-  const result = await generateQuiz(topicId, lang, mastery, 3);
+  const profileId = ctx.profile?.id ?? 'default';
+  const result = await generateQuiz(topicId, lang, mastery, profileId, 3);
 
   const step = {
     node:      'ASSESS',
