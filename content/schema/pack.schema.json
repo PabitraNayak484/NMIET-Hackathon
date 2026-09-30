@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sathi.dev/schemas/pack.schema.json",
+  "title": "SATHI Content Pack",
+  "type": "object",
+  "required": ["pack_id", "version", "meta", "topics", "glossary"],
+  "additionalProperties": false,
+  "properties": {
+    "pack_id": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "meta": {
+      "type": "object",
+      "required": ["class", "board", "subject", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "class":   { "type": "integer", "minimum": 1, "maximum": 12 },
+        "board":   { "type": "string" },
+        "subject": { "type": "string" },
+        "source":  { "type": "string" }
+      }
+    },
+    "topics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["topic_id", "chapter", "difficulty", "prerequisites", "aliases", "concepts", "misconceptions", "quiz"],
+        "additionalProperties": false,
+        "properties": {
+          "topic_id":      { "type": "string", "pattern": "^[a-z0-9_]+$" },
+          "chapter":       { "type": "string" },
+          "difficulty":    { "type": "integer", "minimum": 1, "maximum": 5 },
+          "prerequisites": { "type": "array", "items": { "type": "string" } },
+          "aliases": {
+            "type": "object",
+            "required": ["en"],
+            "additionalProperties": { "type": "array", "items": { "type": "string" } }
+          },
+          "concepts": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["concept_id", "content", "examples"],
+              "additionalProperties": false,
+              "properties": {
+                "concept_id": { "type": "string" },
+                "content": {
+                  "type": "object",
+                  "required": ["en"],
+                  "additionalProperties": { "type": "string" }
+                },
+                "examples": {
+                  "type": "object",
+                  "required": ["en"],
+                  "additionalProperties": { "type": "array", "items": { "type": "string" } }
+                }
+              }
+            }
+          },
+          "misconceptions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "description", "remediation_example"],
+              "additionalProperties": false,
+              "properties": {
+                "id":          { "type": "string" },
+                "description": {
+                  "type": "object",
+                  "required": ["en"],
+                  "additionalProperties": { "type": "string" }
+                },
+                "remediation_example": {
+                  "type": "object",
+                  "required": ["en"],
+                  "additionalProperties": { "type": "string" }
+                }
+              }
+            }
+          },
+          "quiz": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "object",
+              "required": ["question_id", "difficulty", "type", "concept_id", "stem", "options"],
+              "additionalProperties": false,
+              "properties": {
+                "question_id": { "type": "string" },
+                "difficulty":  { "type": "string", "enum": ["easy", "medium", "hard"] },
+                "type":        { "type": "string", "enum": ["mcq", "true_false", "short_answer"] },
+                "concept_id":  { "type": "string" },
+                "stem": {
+                  "type": "object",
+                  "required": ["en"],
+                  "additionalProperties": { "type": "string" }
+                },
+                "options": {
+                  "type": "array",
+                  "minItems": 2,
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "text"],
+                    "additionalProperties": false,
+                    "properties": {
+                      "id":              { "type": "string" },
+                      "text":            { "type": "object", "required": ["en"], "additionalProperties": { "type": "string" } },
+                      "correct":         { "type": "boolean" },
+                      "misconception_id":{ "type": ["string", "null"] }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "glossary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["term_id", "term", "gloss", "protected"],
+        "additionalProperties": false,
+        "properties": {
+          "term_id":   { "type": "string" },
+          "term":      { "type": "object", "required": ["en"], "additionalProperties": { "type": "string" } },
+          "gloss":     { "type": "object", "required": ["en"], "additionalProperties": { "type": "string" } },
+          "protected": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

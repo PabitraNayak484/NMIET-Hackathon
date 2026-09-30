@@ -1,0 +1,70 @@
+{
+  "language_code": "hi",
+  "display_name": "हिंदी (Hindi)",
+  "ui_translations": {
+    "ask_placeholder": "कोई प्रश्न पूछें या कोई विषय चुनें…",
+    "start_quiz": "प्रश्नोत्तरी शुरू करें",
+    "offline": "ऑफलाइन",
+    "syncing": "सिंक हो रहा है",
+    "reconnecting": "फिर से जुड़ रहा है…",
+    "online": "ऑनलाइन",
+    "next_action": "आगे क्या करें",
+    "mastery": "दक्षता",
+    "correct": "सही!",
+    "incorrect": "बिल्कुल सही नहीं",
+    "outside_pack": "मेरे पास इस विषय पर अभी सत्यापित जानकारी नहीं है।",
+    "escalation_saved": "प्रश्न आपके शिक्षक के लिए सहेजा गया।",
+    "clear_data": "मेरा डेटा हटाएं",
+    "agent_working": "SATHI सोच रहा है…",
+    "show_trace": "मैंने कैसे फैसला किया, देखें",
+    "hide_trace": "विवरण छुपाएं",
+    "try_again": "फिर से प्रयास करें",
+    "continue": "जारी रखें",
+    "settings": "सेटिंग्स",
+    "your_progress": "आपकी प्रगति",
+    "misconception_label": "सामान्य गलतफहमी:",
+    "next_topic": "अगला विषय",
+    "did_you_mean": "क्या आपका मतलब है?",
+    "give_example": "एक उदाहरण देखें",
+    "revise_prerequisite": "पहले कुछ दोहराएं",
+    "practice": "अभ्यास का समय",
+    "review": "त्वरित समीक्षा",
+    "teacher_escalation": "शिक्षक के लिए सहेजा गया",
+    "explain": "मैं समझाता हूं",
+    "quiz_instruction": "सबसे अच्छा उत्तर चुनें",
+    "correct_answer": "यह सही है!",
+    "wrong_answer": "समझते हैं कि क्यों नहीं",
+    "syncing_n_of_m": "{m} में से {n} सिंक हो रहा है",
+    "pending_sync": "{n} अपडेट सिंक की प्रतीक्षा में",
+    "clear_data_confirm": "इससे आपकी सभी स्थानीय प्रगति हट जाएगी। क्या आप निश्चित हैं?",
+    "data_cleared": "आपका डेटा हटा दिया गया है।",
+    "outside_pack_notice": "यह विषय मेरे सत्यापित पाठ पैक से बाहर है। आपका प्रश्न आपके शिक्षक के लिए सहेजा गया है।",
+    "language_fallback_notice": "कुछ भाग अंग्रेजी में दिखाए गए हैं (हिंदी संस्करण अभी उपलब्ध नहीं है)।",
+    "voice_unavailable": "आवाज उपलब्ध नहीं है। कृपया टाइप करें या टैप करें।"
+  },
+  "feedback_templates": {
+    "correct": "✓ सही! {concept_reinforcement}",
+    "incorrect_with_misconception": "बिल्कुल नहीं। एक सामान्य गलतफहमी: {misconception_description}। {remediation_example}",
+    "incorrect_no_misconception": "बिल्कुल सही नहीं। सही उत्तर है: {correct_answer}। {brief_explanation}",
+    "outside_pack": "यह प्रश्न मेरे सत्यापित पाठों से बाहर है। मैंने इसे आपके शिक्षक के लिए सहेजा है ताकि वे मदद कर सकें।",
+    "teacher_escalation": "मेरे पास इसका सत्यापित उत्तर नहीं है। इसे आपके शिक्षक के लिए सहेजा गया है।",
+    "prerequisite_needed": "इसे समझने से पहले, आइए {prerequisite_topic} को जल्दी से दोहराएं — इससे यह समझना बहुत आसान हो जाएगा।"
+  },
+  "quiz_templates": {
+    "instruction": "सबसे अच्छा उत्तर चुनें:",
+    "question_n_of_m": "प्रश्न {n} में से {m}",
+    "submit_answer": "उत्तर जमा करें"
+  },
+  "example_templates": {
+    "everyday": [
+      "इसे {analogy} की तरह समझें।",
+      "यहाँ एक वास्तविक उदाहरण है: {example}",
+      "{scenario} की कल्पना करें — यह उसी तरह काम करता है।"
+    ]
+  },
+  "voice_configuration": {
+    "tts": "hi-IN",
+    "stt": "hi-IN",
+    "available": true
+  }
+}
