@@ -1,0 +1,570 @@
+{
+  "pack_id": "class7-science-v1",
+  "version": "1.0.0",
+  "meta": {
+    "class": 7,
+    "board": "CBSE/BSE-Odisha",
+    "subject": "science",
+    "source": "NCERT Class 7 Science Chapter 1 — Nutrition in Plants (adapted for SATHI demo)"
+  },
+  "topics": [
+    {
+      "topic_id": "parts_of_plant",
+      "chapter": "Nutrition in Plants",
+      "difficulty": 1,
+      "prerequisites": [],
+      "aliases": {
+        "en": ["parts of a plant", "plant parts", "parts of plant", "plant structure"],
+        "hi": ["पौधे के भाग", "पौधे की संरचना", "पौधे के हिस्से"],
+        "or": ["ଉଦ୍ଭିଦ ଅଂଶ", "ଗଛର ଅଂଶ", "ଉଦ୍ଭିଦ ଭାଗ"]
+      },
+      "concepts": [
+        {
+          "concept_id": "plant_organs",
+          "content": {
+            "en": "A plant has several main parts: roots, stem, leaves, flowers, and fruits. Roots anchor the plant in the soil and absorb water and minerals. The stem carries water and food between roots and leaves. Leaves are the main sites where food is made using sunlight. Flowers help in reproduction, and fruits protect the seeds.",
+            "hi": "एक पौधे में कई मुख्य भाग होते हैं: जड़, तना, पत्तियाँ, फूल और फल। जड़ें पौधे को मिट्टी में स्थिर रखती हैं और पानी व खनिज अवशोषित करती हैं। तना जड़ों और पत्तियों के बीच पानी और भोजन पहुँचाता है। पत्तियाँ वह मुख्य स्थान हैं जहाँ सूर्य के प्रकाश का उपयोग करके भोजन बनाया जाता है। फूल प्रजनन में मदद करते हैं और फल बीजों की रक्षा करते हैं।",
+            "or": "ଏକ ଉଦ୍ଭିଦ ର ଅନେକ ମୁଖ୍ୟ ଅଂଶ ଅଛି: ମୂଳ, ଡାଳ, ପତ୍ର, ଫୁଲ ଏବଂ ଫଳ। ମୂଳ ଉଦ୍ଭିଦ କୁ ମାଟିରେ ଧରି ରଖେ ଏବଂ ପାଣି ଓ ଖଣିଜ ଶୋଷଣ କରେ। ଡାଳ ମୂଳ ଓ ପତ୍ର ମଧ୍ୟରେ ପାଣି ଓ ଖାଦ୍ୟ ପରିବହନ କରେ। ପତ୍ର ହେଉଛି ସୂର୍ଯ୍ୟ ଆଲୋକ ବ୍ୟବହାର କରି ଖାଦ୍ୟ ପ୍ରସ୍ତୁତ କରିବାର ମୁଖ୍ୟ ସ୍ଥାନ। ଫୁଲ ପ୍ରଜନନ ରେ ସାହାଯ୍ୟ କରେ ଏବଂ ଫଳ ବିଜ ରକ୍ଷା କରେ।"
+          },
+          "examples": {
+            "en": [
+              "The roots of a mango tree go deep into the ground to drink water, just like a straw.",
+              "The stem of a banana plant is thick because it stores water for dry days.",
+              "A leaf is like a solar panel — it faces the sun to catch as much light as possible."
+            ],
+            "hi": [
+              "आम के पेड़ की जड़ें पानी पीने के लिए गहरी जमीन में जाती हैं, जैसे स्ट्रॉ से पानी पीते हैं।",
+              "केले के पेड़ का तना मोटा होता है क्योंकि वह सूखे दिनों के लिए पानी जमा करता है।",
+              "एक पत्ती सौर पैनल की तरह है — वह अधिक से अधिक प्रकाश पाने के लिए सूरज की ओर मुड़ती है।"
+            ],
+            "or": [
+              "ଆମ ଗଛ ର ମୂଳ ପାଣି ପିଇବାକୁ ଗଭୀର ମାଟିକୁ ଯାଏ, ଯେପରି ଷ୍ଟ୍ରରୁ ପାଣି ପିଇଥୁ।",
+              "କଦଳୀ ଗଛ ର ଡାଳ ମୋଟ ହୁଏ କାରଣ ଏହା ଶୁଖିଲା ଦିନ ପାଇଁ ପାଣି ଜମା ରଖେ।",
+              "ପତ୍ର ଏକ ସୋଲାର ପ୍ୟାନେଲ ପରି — ଏହା ଅଧିକ ଆଲୋକ ପାଇଁ ସୂର୍ଯ୍ୟ ଆଡ଼କୁ ମୁହଁ କରେ।"
+            ]
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "roots_make_food",
+          "description": {
+            "en": "Roots make food for the plant",
+            "hi": "जड़ें पौधे के लिए भोजन बनाती हैं",
+            "or": "ମୂଳ ଉଦ୍ଭିଦ ପାଇଁ ଖାଦ୍ୟ ତିଆରି କରେ"
+          },
+          "remediation_example": {
+            "en": "Roots only absorb water and minerals from the soil — they do not make food. Food is made in the green leaves using sunlight. If you cover a plant's leaves completely for a week, the plant will starve even though its roots still have soil.",
+            "hi": "जड़ें केवल मिट्टी से पानी और खनिज अवशोषित करती हैं — वे भोजन नहीं बनातीं। भोजन हरी पत्तियों में सूर्य के प्रकाश का उपयोग करके बनाया जाता है। यदि आप एक सप्ताह के लिए पौधे की पत्तियों को पूरी तरह ढक दें, तो पौधा भूखा रह जाएगा, भले ही उसकी जड़ों के पास अभी भी मिट्टी हो।",
+            "or": "ମୂଳ କେବଳ ମାଟିରୁ ପାଣି ଓ ଖଣିଜ ଶୋଷଣ କରେ — ଏହା ଖାଦ୍ୟ ତିଆରି କରେ ନାହିଁ। ଖାଦ୍ୟ ସୂର୍ଯ୍ୟ ଆଲୋକ ବ୍ୟବହାର କରି ସବୁଜ ପତ୍ରରେ ତିଆରି ହୁଏ। ଯଦି ଆପଣ ଏକ ସପ୍ତାହ ପାଇଁ ଉଦ୍ଭିଦ ର ପତ୍ର ସମ୍ପୂର୍ଣ ଭାବେ ଢାଙ୍କି ଦିଅନ୍ତି, ଉଦ୍ଭିଦ ଟି ଭୋକ ଲାଗିବ ଯଦିଓ ଏହାର ମୂଳ ରେ ଏଖନ ମଧ୍ୟ ମାଟି ଅଛି।"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "question_id": "pop_q1",
+          "difficulty": "easy",
+          "type": "mcq",
+          "concept_id": "plant_organs",
+          "stem": {
+            "en": "Which part of a plant absorbs water from the soil?",
+            "hi": "पौधे का कौन सा भाग मिट्टी से पानी अवशोषित करता है?",
+            "or": "ଉଦ୍ଭିଦ ର କେଉଁ ଅଂଶ ମାଟିରୁ ପାଣି ଶୋଷଣ କରେ?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "text": {
+                "en": "Roots",
+                "hi": "जड़ें",
+                "or": "ମୂଳ"
+              },
+              "correct": true
+            },
+            {
+              "id": "b",
+              "text": {
+                "en": "Leaves",
+                "hi": "पत्तियाँ",
+                "or": "ପତ୍ର"
+              },
+              "misconception_id": "roots_make_food"
+            },
+            {
+              "id": "c",
+              "text": {
+                "en": "Flowers",
+                "hi": "फूल",
+                "or": "ଫୁଲ"
+              },
+              "misconception_id": null
+            },
+            {
+              "id": "d",
+              "text": {
+                "en": "Fruits",
+                "hi": "फल",
+                "or": "ଫଳ"
+              },
+              "misconception_id": null
+            }
+          ]
+        },
+        {
+          "question_id": "pop_q2",
+          "difficulty": "easy",
+          "type": "mcq",
+          "concept_id": "plant_organs",
+          "stem": {
+            "en": "Where is food made in a plant?",
+            "hi": "पौधे में भोजन कहाँ बनाया जाता है?",
+            "or": "ଉଦ୍ଭିଦ ରେ ଖାଦ୍ୟ କେଉଁଠି ତିଆରି ହୁଏ?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "text": {
+                "en": "In the leaves, using sunlight",
+                "hi": "पत्तियों में, सूर्य के प्रकाश का उपयोग करके",
+                "or": "ପତ୍ରରେ, ସୂର୍ଯ୍ୟ ଆଲୋକ ବ୍ୟବହାର କରି"
+              },
+              "correct": true
+            },
+            {
+              "id": "b",
+              "text": {
+                "en": "In the roots, from the soil",
+                "hi": "जड़ों में, मिट्टी से",
+                "or": "ମୂଳ ରେ, ମାଟିରୁ"
+              },
+              "misconception_id": "roots_make_food"
+            },
+            {
+              "id": "c",
+              "text": {
+                "en": "In the flowers, during blooming",
+                "hi": "फूलों में, खिलने के दौरान",
+                "or": "ଫୁଲ ରେ, ଫୁଟିବା ସମୟ ରେ"
+              },
+              "misconception_id": null
+            },
+            {
+              "id": "d",
+              "text": {
+                "en": "In the stem, from water",
+                "hi": "तने में, पानी से",
+                "or": "ଡାଳ ରେ, ପାଣିରୁ"
+              },
+              "misconception_id": null
+            }
+          ]
+        },
+        {
+          "question_id": "pop_q3",
+          "difficulty": "medium",
+          "type": "mcq",
+          "concept_id": "plant_organs",
+          "stem": {
+            "en": "What is the main job of the stem in a plant?",
+            "hi": "पौधे में तने का मुख्य काम क्या है?",
+            "or": "ଉଦ୍ଭିଦ ରେ ଡାଳ ର ମୁଖ୍ୟ କାମ କଣ?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "text": {
+                "en": "To carry water and food between roots and leaves",
+                "hi": "जड़ों और पत्तियों के बीच पानी और भोजन पहुँचाना",
+                "or": "ମୂଳ ଓ ପତ୍ର ମଧ୍ୟ ରେ ପାଣି ଓ ଖାଦ୍ୟ ବହନ କରିବା"
+              },
+              "correct": true
+            },
+            {
+              "id": "b",
+              "text": {
+                "en": "To absorb sunlight directly",
+                "hi": "सीधे सूर्य का प्रकाश अवशोषित करना",
+                "or": "ସିଧାସଳଖ ସୂର୍ଯ୍ୟ ଆଲୋକ ଶୋଷଣ କରିବା"
+              },
+              "misconception_id": null
+            },
+            {
+              "id": "c",
+              "text": {
+                "en": "To store seeds for reproduction",
+                "hi": "प्रजनन के लिए बीज संग्रहीत करना",
+                "or": "ପ୍ରଜନନ ପାଇଁ ବିଜ ସଂଗ୍ରହ କରିବା"
+              },
+              "misconception_id": null
+            },
+            {
+              "id": "d",
+              "text": {
+                "en": "To make oxygen from carbon dioxide",
+                "hi": "कार्बन डाइऑक्साइड से ऑक्सीजन बनाना",
+                "or": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ ରୁ ଅକ୍ସିଜେନ ତିଆରି କରିବା"
+              },
+              "misconception_id": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "photosynthesis",
+      "chapter": "Nutrition in Plants",
+      "difficulty": 2,
+      "prerequisites": ["parts_of_plant"],
+      "aliases": {
+        "en": ["photosynthesis", "photo synthesis", "how plants make food", "plant food making", "food synthesis in plants"],
+        "hi": ["प्रकाश संश्लेषण", "प्रकाश-संश्लेषण", "पौधे भोजन कैसे बनाते हैं", "पत्तियों में भोजन"],
+        "or": ["ଆଲୋକ ସଂଶ୍ଳେଷଣ", "ଉଦ୍ଭିଦ ଖାଦ୍ୟ ତିଆରି", "ପ୍ରକାଶ ସଂଶ୍ଳେଷଣ", "ଗଛ ଖାଦ୍ୟ"]
+      },
+      "concepts": [
+        {
+          "concept_id": "plants_make_own_food",
+          "content": {
+            "en": "Green plants are special — they can make their own food using a process called photosynthesis (ଆଲୋକ ସଂଶ୍ଳେଷଣ / प्रकाश संश्लेषण). In this process, the green leaves capture sunlight using a green pigment called chlorophyll (ହରିତ ଲବ). The leaves take in carbon dioxide (CO₂) from the air through tiny pores called stomata, and roots supply water (H₂O) through the stem. Using sunlight energy, the leaf converts CO₂ and H₂O into glucose (sugar) for food and releases oxygen (O₂) as a by-product. This is why plants need sunlight, water, and air — not soil food.",
+            "hi": "हरे पौधे विशेष होते हैं — वे प्रकाश संश्लेषण (photosynthesis) नामक एक प्रक्रिया का उपयोग करके अपना भोजन स्वयं बना सकते हैं। इस प्रक्रिया में, हरी पत्तियाँ क्लोरोफिल (chlorophyll / हरित लवक) नामक हरे रंगद्रव्य का उपयोग करके सूर्य के प्रकाश को ग्रहण करती हैं। पत्तियाँ रंध्र (stomata) नामक छोटे छिद्रों के माध्यम से हवा से कार्बन डाइऑक्साइड (CO₂) लेती हैं, और जड़ें तने के माध्यम से पानी (H₂O) पहुँचाती हैं। सूर्य के प्रकाश ऊर्जा का उपयोग करके, पत्ती CO₂ और H₂O को ग्लूकोज (शर्करा) में बदल देती है और ऑक्सीजन (O₂) को उप-उत्पाद के रूप में छोड़ती है।",
+            "or": "ସବୁଜ ଉଦ୍ଭିଦ ବିଶେଷ — ଏମାନେ ଆଲୋକ ସଂଶ୍ଳେଷଣ (photosynthesis) ନାମକ ଏକ ପ୍ରକ୍ରିୟା ଦ୍ୱାରା ନିଜ ଖାଦ୍ୟ ନିଜେ ତିଆରି କରି ପାରନ୍ତି। ଏହି ପ୍ରକ୍ରିୟାରେ, ସବୁଜ ପତ୍ର ହରିତ ଲବ (chlorophyll) ନାମକ ଏକ ସବୁଜ ରଞ୍ଜକ ଦ୍ୱାରା ସୂର୍ଯ୍ୟ ଆଲୋକ ଗ୍ରହଣ କରେ। ପତ୍ର ରନ୍ଧ୍ର (stomata) ନାମକ ଛୋଟ ଛିଦ୍ର ଦ୍ୱାରା ବାୟୁ ରୁ CO₂ ଗ୍ରହଣ କରେ, ଏବଂ ମୂଳ ଡାଳ ଦ୍ୱାରା H₂O ଯୋଗାଏ। ସୂର୍ଯ୍ୟ ଆଲୋକ ଶକ୍ତି ବ୍ୟବହାର କରି, ପତ୍ର CO₂ ଓ H₂O କୁ ଖାଦ୍ୟ ପାଇଁ ଗ୍ଲୁକୋଜ (ଶର୍କରା) ରେ ପରିଣତ କରେ ଏବଂ O₂ ନିର୍ଗତ କରେ।"
+          },
+          "examples": {
+            "en": [
+              "Think of a leaf as a tiny kitchen with solar-powered cookers. The cooker is chlorophyll, the fuel is sunlight, the ingredients are CO₂ from the air and H₂O from the roots, and the dish cooked is glucose.",
+              "Aquatic plants like hydrilla release visible O₂ bubbles when placed in sunlight — you can see photosynthesis happening in real time.",
+              "A plant kept in a dark cupboard for 3 days turns yellow and wilts — it cannot make food without sunlight, proving food is NOT from the soil."
+            ],
+            "hi": [
+              "एक पत्ती को सौर-ऊर्जा से चलने वाले कुकर वाली एक छोटी रसोई समझें। कुकर क्लोरोफिल है, ईंधन सूर्य का प्रकाश है, सामग्री हवा से CO₂ और जड़ों से H₂O है, और तैयार पकवान ग्लूकोज है।",
+              "हाइड्रिला जैसे जलीय पौधे धूप में रखने पर दृश्यमान O₂ बुलबुले छोड़ते हैं — आप वास्तविक समय में प्रकाश संश्लेषण होते देख सकते हैं।",
+              "एक पौधे को 3 दिनों के लिए अंधेरे अलमारी में रखने पर वह पीला पड़ जाता है और मुरझा जाता है — यह साबित करता है कि भोजन मिट्टी से नहीं आता।"
+            ],
+            "or": [
+              "ଏକ ପତ୍ର କୁ ଏକ ଛୋଟ ରୋଷେଇ ଘର ଭଳି ଭାବ ଯେଉଁଠି ସୌର-ଚଳିତ ରନ୍ଧା ଉପକରଣ ଅଛି। ରନ୍ଧା ଉପକରଣ ହେଲା ହରିତ ଲବ, ଜ୍ୱାଳାନୀ ହେଲା ସୂର୍ଯ୍ୟ ଆଲୋକ, ଉପାଦାନ ହେଲା ବାୟୁ ରୁ CO₂ ଓ ମୂଳ ରୁ H₂O, ଏବଂ ରାନ୍ଧା ଖାଦ୍ୟ ହେଲା ଗ୍ଲୁକୋଜ।",
+              "ହାଇଡ୍ରିଲା ଭଳି ଜଳୀୟ ଉଦ୍ଭିଦ ଧୂପ ରେ ରଖିଲେ ଦୃଶ୍ୟମାନ O₂ ବୁଦ୍ ବୁଦ ଛାଡ଼ନ୍ତି — ଆଲୋକ ସଂଶ୍ଳେଷଣ ଘଟୁଥିବା ଆପଣ ଦେଖି ପାରିବେ।",
+              "ଏକ ଉଦ୍ଭିଦ କୁ ୩ ଦିନ ଅନ୍ଧାର ଆଲମାରି ରେ ରଖିଲେ ଏହା ହଳଦିଆ ହୋଇ ଝଡ଼ି ଯାଏ — ଏହା ପ୍ରମାଣ କରେ ଯେ ଖାଦ୍ୟ ମାଟିରୁ ଆସେ ନାହିଁ।"
+            ]
+          }
+        },
+        {
+          "concept_id": "chlorophyll_role",
+          "content": {
+            "en": "Chlorophyll (ହରିତ ଲବ / हरित लवक) is the green pigment found in the leaves and other green parts of plants. It gives plants their green colour. Its main job is to capture sunlight energy and use it to drive the photosynthesis reaction. Without chlorophyll, photosynthesis cannot happen, and the plant cannot make food.",
+            "hi": "क्लोरोफिल (हरित लवक / chlorophyll) पत्तियों और पौधों के अन्य हरे भागों में पाया जाने वाला हरा रंगद्रव्य है। यह पौधों को उनका हरा रंग देता है। इसका मुख्य काम सूर्य के प्रकाश ऊर्जा को ग्रहण करना और प्रकाश संश्लेषण प्रतिक्रिया चलाने के लिए इसका उपयोग करना है।",
+            "or": "ହରିତ ଲବ (chlorophyll) ହେଉଛି ପତ୍ର ଓ ଉଦ୍ଭିଦ ର ଅନ୍ୟ ସବୁଜ ଅଂଶ ରେ ମିଳୁଥିବା ସବୁଜ ରଞ୍ଜକ। ଏହା ଉଦ୍ଭିଦ କୁ ସବୁଜ ରଙ୍ଗ ଦିଏ। ଏହାର ମୁଖ୍ୟ କାମ ହେଲା ସୂର୍ଯ୍ୟ ଆଲୋକ ଶକ୍ତି ଗ୍ରହଣ କରିବା ଏବଂ ଆଲୋକ ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା ଚଲାଇବା।"
+          },
+          "examples": {
+            "en": [
+              "Autumn leaves turn yellow/red because chlorophyll breaks down — without it, the leaf cannot photosynthesise and its green colour disappears.",
+              "Variegated leaves (green and white patches) only photosynthesise in their green parts where chlorophyll is present."
+            ],
+            "hi": [
+              "शरद ऋतु की पत्तियाँ पीली/लाल हो जाती हैं क्योंकि क्लोरोफिल टूट जाता है — इसके बिना, पत्ती प्रकाश संश्लेषण नहीं कर सकती और उसका हरा रंग गायब हो जाता है।",
+              "विभिन्न रंगों वाली पत्तियाँ (हरे और सफेद धब्बे) केवल अपने हरे भागों में प्रकाश संश्लेषण करती हैं जहाँ क्लोरोफिल मौजूद होता है।"
+            ],
+            "or": [
+              "ଶୀତ ଋତୁ ପତ୍ର ହଳଦିଆ/ନାଲ ହୋଇଯାଏ କାରଣ ହରିତ ଲବ ଭାଙ୍ଗି ଯାଏ — ଏହା ବିନା ପତ୍ର ଆଲୋକ ସଂଶ୍ଳେଷଣ କରି ପାରେ ନାହିଁ।",
+              "ବିଭିନ୍ନ ରଙ୍ଗ ର ପତ୍ର (ସବୁଜ ଓ ଧଳା ଅଂଶ) କେବଳ ଏହାର ସବୁଜ ଅଂଶ ରେ ଆଲୋକ ସଂଶ୍ଳେଷଣ କରେ ଯେଉଁ ଠି ହରିତ ଲବ ଅଛି।"
+            ]
+          }
+        }
+      ],
+      "misconceptions": [
+        {
+          "id": "photo_food_from_soil",
+          "description": {
+            "en": "Plants get their food (nutrients/glucose) from the soil",
+            "hi": "पौधे अपना भोजन (पोषक तत्व/ग्लूकोज) मिट्टी से लेते हैं",
+            "or": "ଉଦ୍ଭିଦ ମାଟିରୁ ଖାଦ୍ୟ (ପୋଷଣ/ଗ୍ଲୁକୋଜ) ପାଏ"
+          },
+          "remediation_example": {
+            "en": "Plants absorb WATER and MINERALS (like iron, calcium) from the soil through roots — but these are not food. The actual food (glucose) is manufactured inside the leaf using sunlight + CO₂ + H₂O. Proof: hydroponics — plants grow perfectly in water with dissolved minerals and zero soil, as long as they get sunlight.",
+            "hi": "पौधे जड़ों के माध्यम से मिट्टी से पानी और खनिज (जैसे लोहा, कैल्शियम) अवशोषित करते हैं — लेकिन ये भोजन नहीं हैं। वास्तविक भोजन (ग्लूकोज) पत्ती के अंदर सूर्य के प्रकाश + CO₂ + H₂O का उपयोग करके बनाया जाता है। प्रमाण: हाइड्रोपोनिक्स — पौधे घुले हुए खनिजों के साथ पानी में और बिना मिट्टी के भी पूरी तरह उगते हैं, जब तक उन्हें धूप मिलती है।",
+            "or": "ଉଦ୍ଭିଦ ମୂଳ ଦ୍ୱାରା ମାଟିରୁ ପାଣି ଓ ଖଣିଜ (ଯଥା ଲୌହ, କ୍ୟାଲସିୟମ) ଶୋଷଣ କରେ — କିନ୍ତୁ ଏଗୁଡ଼ିକ ଖାଦ୍ୟ ନୁହେଁ। ପ୍ରକୃତ ଖାଦ୍ୟ (ଗ୍ଲୁକୋଜ) ପତ୍ର ର ଭିତରେ ସୂର୍ଯ୍ୟ ଆଲୋକ + CO₂ + H₂O ବ୍ୟବହାର କରି ତିଆରି ହୁଏ। ପ୍ରମାଣ: ହାଇଡ୍ରୋପୋନିକ୍ସ — ଉଦ୍ଭିଦ ଖଣିଜ ମିଶ୍ରିତ ପାଣିରେ ଏବଂ ଶୂନ ମାଟି ରେ ମଧ୍ୟ ଭଲ ଭାବରେ ବଢ଼ନ୍ତି, ଯଦି ଧୂପ ମିଳେ।"
+          }
+        },
+        {
+          "id": "photo_only_in_day",
+          "description": {
+            "en": "Plants make food at night too (photosynthesis happens in darkness)",
+            "hi": "पौधे रात को भी भोजन बनाते हैं (प्रकाश संश्लेषण अंधेरे में होता है)",
+            "or": "ଉଦ୍ଭିଦ ରାତ୍ରରେ ମଧ୍ୟ ଖାଦ୍ୟ ତିଆରି କରେ (ଅନ୍ଧାରରେ ଆଲୋକ ସଂଶ୍ଳେଷଣ ହୁଏ)"
+          },
+          "remediation_example": {
+            "en": "Photosynthesis requires sunlight — it CANNOT happen in darkness. At night, plants only do respiration (like us, they breathe in O₂ and release CO₂). The glucose made during the day is used or stored, but no new glucose is made at night.",
+            "hi": "प्रकाश संश्लेषण के लिए सूर्य का प्रकाश आवश्यक है — यह अंधेरे में नहीं हो सकता। रात को, पौधे केवल श्वसन करते हैं (हमारी तरह, वे O₂ अंदर लेते हैं और CO₂ छोड़ते हैं)। दिन के दौरान बना ग्लूकोज उपयोग या संग्रहीत होता है, लेकिन रात को कोई नया ग्लूकोज नहीं बनता।",
+            "or": "ଆଲୋକ ସଂଶ୍ଳେଷଣ ପାଇଁ ସୂର୍ଯ୍ୟ ଆଲୋକ ଆବଶ୍ୟକ — ଏହା ଅନ୍ଧାରରେ ହୋଇ ପାରେ ନାହିଁ। ରାତ୍ରରେ ଉଦ୍ଭିଦ କେବଳ ଶ୍ୱସନ କରେ (ଆମ ଭଳି, ଏଗୁଡ଼ିକ O₂ ନିଅନ୍ତି ଓ CO₂ ଛାଡ଼ନ୍ତି)। ଦିନ ରେ ତିଆରି ଗ୍ଲୁକୋଜ ବ୍ୟବହାର ବା ସଂଗ୍ରହ ହୁଏ, କିନ୍ତୁ ରାତ୍ରରେ ନୂଆ ଗ୍ଲୁକୋଜ ତିଆରି ହୁଏ ନାହିଁ।"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "question_id": "photo_q1",
+          "difficulty": "easy",
+          "type": "mcq",
+          "concept_id": "plants_make_own_food",
+          "stem": {
+            "en": "Which gas do plants take in from the air to make food?",
+            "hi": "पौधे भोजन बनाने के लिए हवा से कौन सी गैस लेते हैं?",
+            "or": "ଉଦ୍ଭିଦ ଖାଦ୍ୟ ତିଆରି ପାଇଁ ବାୟୁ ରୁ କେଉଁ ଗ୍ୟାସ ନିଏ?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "text": { "en": "Carbon dioxide (CO₂)", "hi": "कार्बन डाइऑक्साइड (CO₂)", "or": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ (CO₂)" },
+              "correct": true
+            },
+            {
+              "id": "b",
+              "text": { "en": "Oxygen (O₂)", "hi": "ऑक्सीजन (O₂)", "or": "ଅକ୍ସିଜେନ (O₂)" },
+              "misconception_id": null
+            },
+            {
+              "id": "c",
+              "text": { "en": "Nitrogen (N₂)", "hi": "नाइट्रोजन (N₂)", "or": "ନାଇଟ୍ରୋଜେନ (N₂)" },
+              "misconception_id": null
+            },
+            {
+              "id": "d",
+              "text": { "en": "Hydrogen (H₂)", "hi": "हाइड्रोजन (H₂)", "or": "ହାଇଡ୍ରୋଜେନ (H₂)" },
+              "misconception_id": null
+            }
+          ]
+        },
+        {
+          "question_id": "photo_q2",
+          "difficulty": "medium",
+          "type": "mcq",
+          "concept_id": "plants_make_own_food",
+          "stem": {
+            "en": "Where do plants get their food (glucose) from?",
+            "hi": "पौधे अपना भोजन (ग्लूकोज) कहाँ से प्राप्त करते हैं?",
+            "or": "ଉଦ୍ଭିଦ ଖାଦ୍ୟ (ଗ୍ଲୁକୋଜ) କେଉଁଠୁ ପାଏ?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "text": {
+                "en": "They make it in leaves using sunlight, CO₂, and water",
+                "hi": "वे इसे पत्तियों में सूर्य के प्रकाश, CO₂ और पानी का उपयोग करके बनाते हैं",
+                "or": "ଏମାନେ ଏହା ପତ୍ରରେ ସୂର୍ଯ୍ୟ ଆଲୋକ, CO₂ ଓ ପାଣି ବ୍ୟବହାର କରି ତିଆରି କରନ୍ତି"
+              },
+              "correct": true
+            },
+            {
+              "id": "b",
+              "text": {
+                "en": "They absorb it from the soil through roots",
+                "hi": "वे इसे जड़ों के माध्यम से मिट्टी से अवशोषित करते हैं",
+                "or": "ଏମାନେ ଏହା ମୂଳ ଦ୍ୱାରା ମାଟିରୁ ଶୋଷଣ କରନ୍ତି"
+              },
+              "misconception_id": "photo_food_from_soil"
+            },
+            {
+              "id": "c",
+              "text": {
+                "en": "They get it from the air directly into their stems",
+                "hi": "वे इसे हवा से सीधे अपने तनों में प्राप्त करते हैं",
+                "or": "ଏମାନେ ଏହା ବାୟୁ ରୁ ସିଧାସଳଖ ଡାଳ ମଧ୍ୟ ରେ ପାଆନ୍ତି"
+              },
+              "misconception_id": null
+            },
+            {
+              "id": "d",
+              "text": {
+                "en": "They make it only at night when it is cool",
+                "hi": "वे इसे केवल रात को बनाते हैं जब ठंड होती है",
+                "or": "ଏମାନେ ଏହା କେବଳ ରାତ୍ରରେ ଯେତେବେଳେ ଥଣ୍ଡା ହୁଏ ତିଆରି କରନ୍ତି"
+              },
+              "misconception_id": "photo_only_in_day"
+            }
+          ]
+        },
+        {
+          "question_id": "photo_q3",
+          "difficulty": "medium",
+          "type": "mcq",
+          "concept_id": "chlorophyll_role",
+          "stem": {
+            "en": "What is the role of chlorophyll (ହରିତ ଲବ) in photosynthesis?",
+            "hi": "प्रकाश संश्लेषण में क्लोरोफिल (हरित लवक) की क्या भूमिका है?",
+            "or": "ଆଲୋକ ସଂଶ୍ଳେଷଣ ରେ ହରିତ ଲବ (chlorophyll) ର ଭୂମିକା କ'ଣ?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "text": {
+                "en": "It captures sunlight energy for the reaction",
+                "hi": "यह प्रतिक्रिया के लिए सूर्य के प्रकाश ऊर्जा को ग्रहण करता है",
+                "or": "ଏହା ପ୍ରତିକ୍ରିୟା ପାଇଁ ସୂର୍ଯ୍ୟ ଆଲୋକ ଶକ୍ତି ଗ୍ରହଣ କରେ"
+              },
+              "correct": true
+            },
+            {
+              "id": "b",
+              "text": {
+                "en": "It absorbs water from the soil",
+                "hi": "यह मिट्टी से पानी अवशोषित करता है",
+                "or": "ଏହା ମାଟିରୁ ପାଣି ଶୋଷଣ କରେ"
+              },
+              "misconception_id": "photo_food_from_soil"
+            },
+            {
+              "id": "c",
+              "text": {
+                "en": "It releases CO₂ into the air",
+                "hi": "यह CO₂ को हवा में छोड़ता है",
+                "or": "ଏହା CO₂ ବାୟୁ ରେ ଛାଡ଼େ"
+              },
+              "misconception_id": null
+            },
+            {
+              "id": "d",
+              "text": {
+                "en": "It stores glucose in the stem",
+                "hi": "यह ग्लूकोज को तने में संग्रहीत करता है",
+                "or": "ଏହା ଗ୍ଲୁକୋଜ ଡାଳ ରେ ସଂଗ୍ରହ କରେ"
+              },
+              "misconception_id": null
+            }
+          ]
+        },
+        {
+          "question_id": "photo_q4",
+          "difficulty": "hard",
+          "type": "mcq",
+          "concept_id": "plants_make_own_food",
+          "stem": {
+            "en": "A plant is kept in a completely dark room for 5 days with plenty of water and rich soil. What will happen?",
+            "hi": "एक पौधे को 5 दिनों के लिए पूरी तरह से अंधेरे कमरे में प्रचुर पानी और समृद्ध मिट्टी के साथ रखा जाता है। क्या होगा?",
+            "or": "ଏକ ଉଦ୍ଭିଦ କୁ ୫ ଦିନ ପ୍ରଚୁର ପାଣି ଓ ଭଲ ମାଟି ସହ ସଂପୂର୍ଣ ଅନ୍ଧାର ଘର ରେ ରଖାଗଲା। କ'ଣ ହେବ?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "text": {
+                "en": "The plant will weaken and wilt — it cannot make food without sunlight",
+                "hi": "पौधा कमजोर होगा और मुरझाएगा — यह सूर्य के प्रकाश के बिना भोजन नहीं बना सकता",
+                "or": "ଉଦ୍ଭିଦ ଦୁର୍ବଳ ହୋଇ ଝଡ଼ି ଯିବ — ଏହା ସୂର୍ଯ୍ୟ ଆଲୋକ ବିନା ଖାଦ୍ୟ ତିଆରି କରି ପାରିବ ନାହିଁ"
+              },
+              "correct": true
+            },
+            {
+              "id": "b",
+              "text": {
+                "en": "The plant will grow well because it has enough water and soil nutrients",
+                "hi": "पौधा अच्छी तरह बढ़ेगा क्योंकि उसके पास पर्याप्त पानी और मिट्टी के पोषक तत्व हैं",
+                "or": "ଉଦ୍ଭିଦ ଭଲ ଭାବରେ ବଢ଼ିବ କାରଣ ଏହା ପାଖ ରେ ଯଥେଷ୍ଟ ପାଣି ଓ ମାଟି ପୋଷଣ ଅଛି"
+              },
+              "misconception_id": "photo_food_from_soil"
+            },
+            {
+              "id": "c",
+              "text": {
+                "en": "The plant will make extra food at night to compensate",
+                "hi": "पौधा रात को क्षतिपूर्ति के लिए अतिरिक्त भोजन बनाएगा",
+                "or": "ଉଦ୍ଭିଦ ରାତ୍ରରେ ଅଧିକ ଖାଦ୍ୟ ତିଆରି କରି ପୂରଣ କରିବ"
+              },
+              "misconception_id": "photo_only_in_day"
+            },
+            {
+              "id": "d",
+              "text": {
+                "en": "The plant will survive on oxygen from the soil",
+                "hi": "पौधा मिट्टी से ऑक्सीजन पर जीवित रहेगा",
+                "or": "ଉଦ୍ଭିଦ ମାଟିର ଅକ୍ସିଜେନ ରେ ବଞ୍ଚି ରହିବ"
+              },
+              "misconception_id": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term_id": "photosynthesis",
+      "term": {
+        "en": "photosynthesis",
+        "hi": "प्रकाश संश्लेषण",
+        "or": "ଆଲୋକ ସଂଶ୍ଳେଷଣ"
+      },
+      "gloss": {
+        "en": "The process by which green plants make their own food using sunlight, CO₂, and water",
+        "hi": "वह प्रक्रिया जिसके द्वारा हरे पौधे सूर्य के प्रकाश, CO₂ और पानी का उपयोग करके अपना भोजन बनाते हैं",
+        "or": "ଯେଉଁ ପ୍ରକ୍ରିୟା ଦ୍ୱାରା ସବୁଜ ଉଦ୍ଭିଦ ସୂର୍ଯ୍ୟ ଆଲୋକ, CO₂ ଓ ପାଣି ବ୍ୟବହାର କରି ଖାଦ୍ୟ ତିଆରି କରେ"
+      },
+      "protected": true
+    },
+    {
+      "term_id": "chlorophyll",
+      "term": {
+        "en": "chlorophyll",
+        "hi": "क्लोरोफिल / हरित लवक",
+        "or": "ହରିତ ଲବ"
+      },
+      "gloss": {
+        "en": "Green pigment in leaves that captures sunlight energy for photosynthesis",
+        "hi": "पत्तियों में हरा रंगद्रव्य जो प्रकाश संश्लेषण के लिए सूर्य के प्रकाश ऊर्जा को ग्रहण करता है",
+        "or": "ପତ୍ରରେ ସବୁଜ ରଞ୍ଜକ ଯାହା ଆଲୋକ ସଂଶ୍ଳେଷଣ ପାଇଁ ସୂର୍ଯ୍ୟ ଆଲୋକ ଶକ୍ତି ଗ୍ରହଣ କରେ"
+      },
+      "protected": true
+    },
+    {
+      "term_id": "stomata",
+      "term": {
+        "en": "stomata",
+        "hi": "रंध्र",
+        "or": "ରନ୍ଧ୍ର"
+      },
+      "gloss": {
+        "en": "Tiny pores on leaves through which plants take in CO₂ and release O₂",
+        "hi": "पत्तियों पर छोटे छिद्र जिनके माध्यम से पौधे CO₂ लेते हैं और O₂ छोड़ते हैं",
+        "or": "ପତ୍ରରେ ଛୋଟ ଛିଦ୍ର ଯେଉଁ ଦ୍ୱାରା ଉଦ୍ଭିଦ CO₂ ନିଏ ଓ O₂ ଛାଡ଼େ"
+      },
+      "protected": true
+    },
+    {
+      "term_id": "glucose",
+      "term": {
+        "en": "glucose",
+        "hi": "ग्लूकोज / शर्करा",
+        "or": "ଗ୍ଲୁକୋଜ / ଶର୍କରା"
+      },
+      "gloss": {
+        "en": "Sugar made by plants during photosynthesis — the plant's main food",
+        "hi": "प्रकाश संश्लेषण के दौरान पौधों द्वारा बनाई गई शर्करा — पौधे का मुख्य भोजन",
+        "or": "ଆଲୋକ ସଂଶ୍ଳେଷଣ ସମୟ ରେ ଉଦ୍ଭିଦ ଦ୍ୱାରା ତିଆରି ଶର୍କରା — ଉଦ୍ଭିଦ ର ମୁଖ୍ୟ ଖାଦ୍ୟ"
+      },
+      "protected": false
+    },
+    {
+      "term_id": "carbon_dioxide",
+      "term": {
+        "en": "carbon dioxide (CO₂)",
+        "hi": "कार्बन डाइऑक्साइड (CO₂)",
+        "or": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ (CO₂)"
+      },
+      "gloss": {
+        "en": "A gas in the air that plants absorb through stomata to use in photosynthesis",
+        "hi": "हवा में एक गैस जिसे पौधे रंध्र के माध्यम से प्रकाश संश्लेषण में उपयोग के लिए अवशोषित करते हैं",
+        "or": "ବାୟୁ ରେ ଏକ ଗ୍ୟାସ ଯାହା ଉଦ୍ଭିଦ ଆଲୋକ ସଂଶ୍ଳେଷଣ ପାଇଁ ରନ୍ଧ୍ର ଦ୍ୱାରା ଶୋଷଣ କରେ"
+      },
+      "protected": true
+    },
+    {
+      "term_id": "oxygen",
+      "term": {
+        "en": "oxygen (O₂)",
+        "hi": "ऑक्सीजन (O₂)",
+        "or": "ଅକ୍ସିଜେନ (O₂)"
+      },
+      "gloss": {
+        "en": "A gas released by plants as a by-product of photosynthesis — the oxygen we breathe",
+        "hi": "पौधों द्वारा प्रकाश संश्लेषण के उप-उत्पाद के रूप में छोड़ी गई गैस — वह ऑक्सीजन जो हम सांस लेते हैं",
+        "or": "ଆଲୋକ ସଂଶ୍ଳେଷଣ ର ଉପ-ଉତ୍ପାଦ ଭାବରେ ଉଦ୍ଭିଦ ଦ୍ୱାରା ଛାଡ଼ା ଯାଉଥିବା ଗ୍ୟାସ — ଯେଉଁ ଅକ୍ସିଜେନ ଆମେ ଶ୍ୱାସ ନେଉ"
+      },
+      "protected": false
+    }
+  ]
+}
