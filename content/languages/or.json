@@ -1,0 +1,70 @@
+{
+  "language_code": "or",
+  "display_name": "ଓଡ଼ିଆ (Odia)",
+  "ui_translations": {
+    "ask_placeholder": "ଏକ ପ୍ରଶ୍ନ ପଚାରନ୍ତୁ ବା ଏକ ବିଷୟ ବାଛନ୍ତୁ…",
+    "start_quiz": "କ୍ୱିଜ ଆରମ୍ଭ କରନ୍ତୁ",
+    "offline": "ଅଫଲାଇନ",
+    "syncing": "ସିଙ୍କ ହେଉଛି",
+    "reconnecting": "ପୁଣି ସଂଯୁକ୍ତ ହେଉଛି…",
+    "online": "ଅନଲାଇନ",
+    "next_action": "ପରବର୍ତ୍ତୀ କ'ଣ କରିବା",
+    "mastery": "ଦକ୍ଷତା",
+    "correct": "ସଠିକ!",
+    "incorrect": "ଠିକ ନୁହେଁ",
+    "outside_pack": "ଏହି ବିଷୟ ଉପରେ ମୋ ପାଖ ରେ ଏଖନ ଯାଞ୍ଚ ହୋଇଥିବା ତଥ୍ୟ ନାହିଁ।",
+    "escalation_saved": "ପ୍ରଶ୍ନ ଆପଣ ଙ୍କ ଶିକ୍ଷକ ଙ୍କ ପାଇଁ ସଞ୍ଚୟ ହୋଇଛି।",
+    "clear_data": "ମୋ ତଥ୍ୟ ଲିଭାନ୍ତୁ",
+    "agent_working": "SATHI ଭାବୁଛି…",
+    "show_trace": "ମୁଁ କିପରି ନିଷ୍ପତ୍ତି ନେଲି ଦେଖନ୍ତୁ",
+    "hide_trace": "ବିବରଣ ଲୁଚାନ୍ତୁ",
+    "try_again": "ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ",
+    "continue": "ଜାରି ରଖନ୍ତୁ",
+    "settings": "ସେଟିଂ",
+    "your_progress": "ଆପଣ ଙ୍କ ଅଗ୍ରଗତି",
+    "misconception_label": "ସାଧାରଣ ଭ୍ରାନ୍ତ ଧାରଣା:",
+    "next_topic": "ପରବର୍ତ୍ତୀ ବିଷୟ",
+    "did_you_mean": "ଆପଣ ଏହା କ'ଣ ବୁଝାଉଛନ୍ତି?",
+    "give_example": "ଏକ ଉଦାହରଣ ଦେଖନ୍ତୁ",
+    "revise_prerequisite": "ପ୍ରଥମ ରେ କିଛି ଦୋହ୍ରାନ୍ତୁ",
+    "practice": "ଅଭ୍ୟାସ ସମୟ",
+    "review": "ଶୀଘ୍ର ସମୀକ୍ଷା",
+    "teacher_escalation": "ଶିକ୍ଷକ ଙ୍କ ପାଇଁ ସଞ୍ଚୟ ହୋଇଛି",
+    "explain": "ମୁଁ ବୁଝାଏ",
+    "quiz_instruction": "ସର୍ବୋତ୍ତମ ଉତ୍ତର ବାଛନ୍ତୁ",
+    "correct_answer": "ଏହା ସଠିକ!",
+    "wrong_answer": "ଆସନ୍ତୁ ବୁଝିବା",
+    "syncing_n_of_m": "{m} ରୁ {n} ସିଙ୍କ ହେଉଛି",
+    "pending_sync": "{n}ଟି ଅଦ୍ୟତନ ସିଙ୍କ ପ୍ରତୀକ୍ଷା ରେ",
+    "clear_data_confirm": "ଏହା ଆପଣ ଙ୍କ ସମସ୍ତ ସ୍ଥାନୀୟ ଅଗ୍ରଗତି ଲିଭାଇ ଦେବ। ଆପଣ ନିଶ୍ଚିତ ତ?",
+    "data_cleared": "ଆପଣ ଙ୍କ ତଥ୍ୟ ଲିଭାଇ ଦିଆ ଗଲା।",
+    "outside_pack_notice": "ଏହି ବିଷୟ ମୋ ଯାଞ୍ଚ ହୋଇଥିବା ପାଠ ପ୍ୟାକ ବାହାରୁ। ଆପଣ ଙ୍କ ପ୍ରଶ୍ନ ଆପଣ ଙ୍କ ଶିକ୍ଷକ ଙ୍କ ପାଇଁ ସଞ୍ଚୟ ହୋଇଛି।",
+    "language_fallback_notice": "କିଛି ଅଂଶ ଇଂଲିଶ ରେ ଦିଖାଯାଇଛି (ଓଡ଼ିଆ ସଂସ୍କରଣ ଏଖନ ଉପଲବ୍ଧ ନାହିଁ)।",
+    "voice_unavailable": "ଭଏସ ଉପଲବ୍ଧ ନୁହେଁ। ଦୟାକରି ଟାଇପ ବା ଟ୍ୟାପ କରନ୍ତୁ।"
+  },
+  "feedback_templates": {
+    "correct": "✓ ସଠିକ! {concept_reinforcement}",
+    "incorrect_with_misconception": "ଠିକ ନୁହେଁ। ଏକ ସାଧାରଣ ଭ୍ରାନ୍ତ ଧାରଣା: {misconception_description}। {remediation_example}",
+    "incorrect_no_misconception": "ଠିକ ଉତ୍ତର ନୁହେଁ। ସଠିକ ଉତ୍ତର ହେଲା: {correct_answer}। {brief_explanation}",
+    "outside_pack": "ଏହି ପ୍ରଶ୍ନ ମୋ ଯାଞ୍ଚ ହୋଇଥିବା ପାଠ ବାହାରୁ। ମୁଁ ଏହା ଆପଣ ଙ୍କ ଶିକ୍ଷକ ଙ୍କ ପାଇଁ ସଞ୍ଚୟ କଲି ଯାହାଦ୍ୱାରା ସେ ସାହାଯ୍ୟ କରି ପାରିବେ।",
+    "teacher_escalation": "ମୋ ପାଖ ରେ ଏହାର ଯାଞ୍ଚ ହୋଇଥିବା ଉତ୍ତର ନାହିଁ। ଏହା ଆପଣ ଙ୍କ ଶିକ୍ଷକ ଙ୍କ ପାଇଁ ସଞ୍ଚୟ ହୋଇଛି।",
+    "prerequisite_needed": "ଏହା ବୁଝିବା ପୂର୍ବ ରୁ, ଆସନ୍ତୁ ଶୀଘ୍ର {prerequisite_topic} ଦୋହ୍ରାଇ ନିଅ — ଏହା ଏହି ବିଷୟ ବୁଝିବା ଅନେକ ସହଜ କରିଦେବ।"
+  },
+  "quiz_templates": {
+    "instruction": "ସର୍ବୋତ୍ତମ ଉତ୍ତର ବାଛନ୍ତୁ:",
+    "question_n_of_m": "ପ୍ରଶ୍ନ {n} ଙ୍କ ରୁ {m}",
+    "submit_answer": "ଉତ୍ତର ଦାଖଲ କରନ୍ତୁ"
+  },
+  "example_templates": {
+    "everyday": [
+      "ଏହାକୁ {analogy} ଭଳି ଭାବନ୍ତୁ।",
+      "ଏଠି ଏକ ପ୍ରକୃତ ଉଦାହରଣ ଅଛି: {example}",
+      "{scenario} କଳ୍ପନା କରନ୍ତୁ — ଏହା ସେହି ଭଳି କାମ କରେ।"
+    ]
+  },
+  "voice_configuration": {
+    "tts": "or-IN",
+    "stt": "or-IN",
+    "available": false
+  }
+}

@@ -1,0 +1,57 @@
+# ---- Node / Frontend ----
+node_modules/
+dist/
+dist-ssr/
+.cache/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# Vite build artifacts
+frontend/dist/
+
+# ---- Python / Backend ----
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+build/
+*.so
+
+# Backend database (SQLite dev file)
+backend/sathi.db
+backend/*.db
+
+# Local model files (too large for GitHub — download separately)
+backend/model/
+*.gguf
+*.bin
+*.safetensors
+
+# Backend .env (has secrets)
+backend/.env
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- PWA / SW ----
+frontend/dist/sw.js
+frontend/dist/workbox-*.js

@@ -1,0 +1,70 @@
+{
+  "language_code": "en",
+  "display_name": "English",
+  "ui_translations": {
+    "ask_placeholder": "Ask a question or tap a topic…",
+    "start_quiz": "Start Quiz",
+    "offline": "Offline",
+    "syncing": "Syncing",
+    "reconnecting": "Reconnecting…",
+    "online": "Online",
+    "next_action": "What to do next",
+    "mastery": "Mastery",
+    "correct": "Correct!",
+    "incorrect": "Not quite right",
+    "outside_pack": "I don't have verified information on this topic yet.",
+    "escalation_saved": "Question saved for your teacher.",
+    "clear_data": "Clear My Data",
+    "agent_working": "SATHI is thinking…",
+    "show_trace": "Show how I decided",
+    "hide_trace": "Hide details",
+    "try_again": "Try Again",
+    "continue": "Continue",
+    "settings": "Settings",
+    "your_progress": "Your Progress",
+    "misconception_label": "Common mix-up detected:",
+    "next_topic": "Next Topic",
+    "did_you_mean": "Did you mean?",
+    "give_example": "Let's see an example",
+    "revise_prerequisite": "Let's revise something first",
+    "practice": "Practice time",
+    "review": "Quick review",
+    "teacher_escalation": "Saved for teacher",
+    "explain": "Let me explain",
+    "quiz_instruction": "Choose the best answer",
+    "correct_answer": "That's correct!",
+    "wrong_answer": "Let's understand why",
+    "syncing_n_of_m": "Syncing {n} of {m}",
+    "pending_sync": "{n} update(s) waiting to sync",
+    "clear_data_confirm": "This will delete all your local progress. Are you sure?",
+    "data_cleared": "Your data has been cleared.",
+    "outside_pack_notice": "This topic is outside my verified lesson pack. Your question has been saved for your teacher.",
+    "language_fallback_notice": "Some parts shown in English (your language version is not yet available).",
+    "voice_unavailable": "Voice not available. Please type or tap."
+  },
+  "feedback_templates": {
+    "correct": "✓ Correct! {concept_reinforcement}",
+    "incorrect_with_misconception": "Not quite. A common mix-up: {misconception_description}. {remediation_example}",
+    "incorrect_no_misconception": "Not quite right. The correct answer is: {correct_answer}. {brief_explanation}",
+    "outside_pack": "This question is outside my verified lessons. I've saved it for your teacher so they can help.",
+    "teacher_escalation": "I don't have a verified answer for this. It's been saved for your teacher.",
+    "prerequisite_needed": "Before we cover this, let's quickly revise {prerequisite_topic} — it will make this much easier to understand."
+  },
+  "quiz_templates": {
+    "instruction": "Choose the best answer:",
+    "question_n_of_m": "Question {n} of {m}",
+    "submit_answer": "Submit Answer"
+  },
+  "example_templates": {
+    "everyday": [
+      "Think of it like {analogy}.",
+      "Here's a real example: {example}",
+      "Imagine {scenario} — it works the same way."
+    ]
+  },
+  "voice_configuration": {
+    "tts": "en-IN",
+    "stt": "en-IN",
+    "available": true
+  }
+}

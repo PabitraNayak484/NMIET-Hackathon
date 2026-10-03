@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sathi.dev/schemas/language.schema.json",
+  "title": "SATHI Language Pack",
+  "type": "object",
+  "required": ["language_code", "display_name", "ui_translations", "feedback_templates", "quiz_templates", "example_templates", "voice_configuration"],
+  "additionalProperties": false,
+  "properties": {
+    "language_code":  { "type": "string", "enum": ["en", "hi", "or"] },
+    "display_name":   { "type": "string" },
+    "ui_translations": {
+      "type": "object",
+      "required": [
+        "ask_placeholder", "start_quiz", "offline", "syncing", "reconnecting", "online",
+        "next_action", "mastery", "correct", "incorrect", "outside_pack",
+        "escalation_saved", "clear_data", "agent_working", "show_trace",
+        "hide_trace", "try_again", "continue", "settings", "your_progress",
+        "misconception_label", "next_topic", "did_you_mean", "give_example",
+        "revise_prerequisite", "practice", "review", "teacher_escalation",
+        "explain", "quiz_instruction", "correct_answer", "wrong_answer",
+        "syncing_n_of_m", "pending_sync", "clear_data_confirm", "data_cleared",
+        "outside_pack_notice", "language_fallback_notice", "voice_unavailable"
+      ],
+      "additionalProperties": { "type": "string" }
+    },
+    "feedback_templates": {
+      "type": "object",
+      "required": ["correct", "incorrect_with_misconception", "incorrect_no_misconception", "outside_pack", "teacher_escalation", "prerequisite_needed"],
+      "additionalProperties": { "type": "string" }
+    },
+    "quiz_templates": {
+      "type": "object",
+      "required": ["instruction", "question_n_of_m", "submit_answer"],
+      "additionalProperties": { "type": "string" }
+    },
+    "example_templates": {
+      "type": "object",
+      "required": ["everyday"],
+      "properties": {
+        "everyday": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "voice_configuration": {
+      "type": "object",
+      "required": ["tts", "stt", "available"],
+      "additionalProperties": false,
+      "properties": {
+        "tts":       { "type": "string" },
+        "stt":       { "type": "string" },
+        "available": { "type": "boolean" }
+      }
+    }
+  }
+}
