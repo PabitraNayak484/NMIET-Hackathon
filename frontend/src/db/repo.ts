@@ -28,7 +28,13 @@ export async function getFirstProfile(): Promise<StudentProfile | undefined> {
 // ---- Multi-profile store (MR-01) ----------------------------
 
 export async function listProfiles(): Promise<ProfileRecord[]> {
-  return db.profiles.orderBy('created_at').toArray();
+  try {
+    const profiles = await db.profiles.toArray();
+    return profiles.sort((a, b) => (b.created_at || '').localeCompare(a.created_at || ''));
+  } catch (err) {
+    console.error('[repo] listProfiles failed:', err);
+    return [];
+  }
 }
 
 export async function getProfileRecord(profile_id: string): Promise<ProfileRecord | undefined> {

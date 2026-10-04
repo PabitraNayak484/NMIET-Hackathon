@@ -86,3 +86,13 @@ export class SathiDB extends Dexie {
 }
 
 export const db = new SathiDB();
+
+if (typeof window !== 'undefined') {
+  db.on('versionchange', () => {
+    console.warn('[DB] Database version change detected — closing connection to allow upgrade');
+    db.close();
+  });
+  db.on('blocked', () => {
+    console.warn('[DB] Database upgrade blocked by another connection');
+  });
+}

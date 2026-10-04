@@ -55,3 +55,9 @@ yarn-error.log*
 # ---- PWA / SW ----
 frontend/dist/sw.js
 frontend/dist/workbox-*.js
+
+# ---- Playwright Test Output ----
+test-results/
+playwright-report/
+frontend/test-results/
+frontend/playwright-report/

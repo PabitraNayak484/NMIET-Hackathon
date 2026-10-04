@@ -1,5 +1,3 @@
-// ProfilePickerPage — /  (MR-01, MR-02)
-// Shows nickname/avatar cards for up to 5 profiles, 2-tap switch
 import React, { useEffect, useState } from 'react';
 import { useAgentStore } from '../../stores/agentStore';
 import { useProfileStore } from '../../stores/profileStore';
@@ -7,6 +5,7 @@ import { NetworkBadge } from '../components/NetworkBadge';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 import { ProfilePickerCard } from '../components/ProfilePickerCard';
 import { useDemoSeed } from '../../profiles/useDemoSeed';
+import { getProfiles, deleteProfile } from '../../profiles/profileManager';
 import type { ProfileRecord } from '../../types';
 
 const AVATARS = ['🌻', '🦁', '🐬', '🦋', '🌈', '🚀', '🎸', '🦉', '🌺', '⚡'];
@@ -19,18 +18,30 @@ export function ProfilePickerPage() {
   const { seedDemo, seeding } = useDemoSeed();
 
   useEffect(() => {
+    let mounted = true;
+
     async function load() {
       try {
-        const { getProfiles } = await import('../../profiles/profileManager');
-        const ps = await getProfiles();
-        setProfiles(ps);
+        const ps = await Promise.race([
+          getProfiles(),
+          new Promise<ProfileRecord[]>((_, reject) =>
+            setTimeout(() => reject(new Error('Profile loading timed out')), 1500)
+          ),
+        ]);
+        if (mounted) setProfiles(ps);
       } catch (e) {
-        console.error(e);
+        console.warn('[ProfilePicker] Error or timeout loading profiles:', e);
+        if (mounted) setProfiles([]);
       } finally {
-        setLoading(false);
+        if (mounted) setLoading(false);
       }
     }
+
     load();
+
+    return () => {
+      mounted = false;
+    };
   }, [setProfiles]);
 
   async function handleSelect(profile: ProfileRecord) {
@@ -45,7 +56,6 @@ export function ProfilePickerPage() {
 
   async function handleDelete(id: string) {
     try {
-      const { deleteProfile } = await import('../../profiles/profileManager');
       await deleteProfile(id);
       setProfiles(profiles.filter((p) => p.profile_id !== id));
       setConfirmDelete(null);
@@ -136,7 +146,6 @@ export function ProfilePickerPage() {
               onClick={async () => {
                 const profile = await seedDemo();
                 if (profile) {
-                  const { getProfiles } = await import('../../profiles/profileManager');
                   const ps = await getProfiles();
                   setProfiles(ps);
                   setActiveProfile(profile);
