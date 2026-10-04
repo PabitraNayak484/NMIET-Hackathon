@@ -337,3 +337,5 @@ export interface ToolResult<T> {
   error?: string;
   durationMs: number;
 }
+
+export type { PlannerInput } from './agent/planner';
