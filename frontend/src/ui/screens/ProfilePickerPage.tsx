@@ -5,6 +5,7 @@ import { useAgentStore } from '../../stores/agentStore';
 import { useProfileStore } from '../../stores/profileStore';
 import { NetworkBadge } from '../components/NetworkBadge';
 import { ErrorBoundary } from '../components/ErrorBoundary';
+import { ProfilePickerCard } from '../components/ProfilePickerCard';
 import { useDemoSeed } from '../../profiles/useDemoSeed';
 import type { ProfileRecord } from '../../types';
 
@@ -97,7 +98,7 @@ export function ProfilePickerPage() {
             </h2>
             <div className="flex-col gap-3 stagger">
               {profiles.map((profile) => (
-                <div key={profile.profile_id} style={{ position: 'relative' }}>
+                <div key={profile.profile_id}>
                   {confirmDelete === profile.profile_id ? (
                     <div className="card" style={{ borderColor: 'var(--error)' }}>
                       <p style={{ marginBottom: 'var(--space-4)', color: 'var(--text-primary)' }}>
@@ -109,47 +110,12 @@ export function ProfilePickerPage() {
                       </div>
                     </div>
                   ) : (
-                    <button
-                      id={`profile-${profile.profile_id}`}
-                      className="card interactive slide-up w-full"
-                      style={{ textAlign: 'left', padding: 'var(--space-4) var(--space-5)' }}
-                      onClick={() => handleSelect(profile)}
-                      aria-label={`Select profile: ${profile.nickname}, Class ${profile.class}`}
-                    >
-                      <div className="flex items-center gap-4">
-                        <div
-                          className="avatar"
-                          style={{ width: 52, height: 52, fontSize: '1.8rem', border: '2px solid var(--primary)' }}
-                          aria-hidden="true"
-                        >
-                          {profile.avatar}
-                        </div>
-                        <div style={{ flex: 1 }}>
-                          <div style={{ fontWeight: 700, fontSize: 'var(--text-lg)', color: 'var(--text-primary)' }}>
-                            {profile.nickname}
-                          </div>
-                          <div className="text-secondary text-sm">
-                            Class {profile.class} · {profile.language.toUpperCase()} · {profile.board}
-                          </div>
-                        </div>
-                        <span aria-hidden="true" style={{ color: 'var(--text-muted)', fontSize: '1.2rem' }}>›</span>
-                      </div>
-                    </button>
-                  )}
-
-                  {confirmDelete !== profile.profile_id && (
-                    <button
-                      className="icon-btn"
-                      style={{
-                        position: 'absolute', top: '50%', right: 'var(--space-12)',
-                        transform: 'translateY(-50%)', width: 32, height: 32,
-                        fontSize: '0.9rem', opacity: 0.5,
-                      }}
-                      onClick={(e) => { e.stopPropagation(); setConfirmDelete(profile.profile_id); }}
-                      aria-label={`Delete ${profile.nickname}'s profile`}
-                    >
-                      🗑
-                    </button>
+                    <ProfilePickerCard
+                      profile={profile}
+                      onSelect={handleSelect}
+                      onDeleteRequest={setConfirmDelete}
+                      singleTap={profiles.length === 1}
+                    />
                   )}
                 </div>
               ))}
